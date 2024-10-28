@@ -1,0 +1,218 @@
+
+c:/New folder/PPW/slebew.html·;<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            background: url('path/to/your/background.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(27, 176, 168);
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .gallery {
+            overflow: hidden;
+            position: relative;
+            height: 300px;
+        }
+
+        .gallery img {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            animation: slide 12s infinite;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            20% { transform: translateX(0); }
+            25% { transform: translateX(-100%); }
+            45% { transform: translateX(-100%); }
+            50% { transform: translateX(-200%); }
+            70% { transform: translateX(-200%); }
+            75% { transform: translateX(-300%); }
+            95% { transform: translateX(-300%); }
+            100% { transform: translateX(0); }
+        }
+
+        .card {
+            animation: flipInX 1s;
+        }
+
+        @keyframes flipInX {
+            from {
+                transform: perspective(400px) rotateY(90deg);
+                opacity: 0;
+            }
+            to {
+                transform: perspective(400px) rotateY(0deg);
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background: #333;
+            color: rgb(31, 192, 210);
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Earlin Tasia Gulo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Tentang Saya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galeri</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div>
+            <h1>Halooo semuanyaa!!</h1>
+            <p class="lead">Kenaliiin, namaku Earlin Tasia Gulo. Panggil aja Yarliiin</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 text-center">
+        <div class="container">
+            <h2>Mau tau tentang akuu?!?!</h2>
+            <p>Aku adalah mahasiswa prodi Teknologi Informasi di Universitas Sumatera Utara. Aku berasal dari SMA Swasta Santu Xaverius Gunungsitoli.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="IMG-20240503-WA0081.jpg" class="IMG-20240503-WA0081.jpg" alt="Proyek 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Yarlin itu kayak gimana sih orangnya?</h5>
+                            <p class="card-text">Yarliin adalah orang yang bisa menyebar energi-energi positif kepada orang-orang disekitarnya. Yarlin ituu anak baik, anak ceria, dan yang pasti, Yarlin itu anak yang rajin menabung dan tidak sombong. maaf ya agak pickme mwehehehe</p>
+                            <a href="#" class="btn btn-primary">Yarlin</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="" class="IMG-20231019-WA0003.jpg" alt="IMG-20231019-WA0003.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Yarlin pernah ngapain aja?</h5>
+                            <p class="card-text">Waktuu SMA, aku anak yang sukaa ikut organisasi & kegiatan. baik itu OSIS, Marching Band, dan masih banyak lagi.</p>
+                            <a href="#" class="btn btn-primary">Yarlin</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Proyek Saya</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="" class="IMG-20231019-WA0003.jpg" alt="IMG-20231019-WA0003.jpg">
+                        <div class="card-body">
+                            <h5 class="card-title">Yarlin pernah ngapain aja?</h5>
+                            <p class="card-text">Waktuu SMA, aku anak yang sukaa ikut organisasi & kegiatan. baik itu OSIS, Marching Band, dan masih banyak lagi.</p>
+                            <a href="#" class="btn btn-primary">Yarlin</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="py-5 text-center">
+        <div class="container">
+            <h2>Galeri Foto</h2>
+            <div class="gallery">
+                <img src="C:\New folder\PPW\IMG-20240326-WA0011.jpg" alt="Foto 1">
+                <img src="IMG-20240318-WA0074.jpg" alt="Foto 2">
+                <img src="IMG-20240503-WA0081.jpg" alt="Foto 3">
+                <!-- Tambahkan lebih banyak foto sesuai kebutuhan -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yarlin. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+â âö
+öÖ 
+Öå 0åó*$12ac7e7c-4725-41e2-aeef-0b8bc5286c610
+ó∫ 
+∫Û 
+Û˛ ˛ñ
+ñ¨ ¨∑0∑⁄*$a40074ed-9f9e-466c-aedf-092a6b4c8d3e00⁄¯*$5fc6b06e-065c-4edd-b19c-5215cd7c06be0
+¯≤ 
+≤®! ®!Õ!
+Õ!Ö" 
+Ö"Î# 
+Î#±$ ±$∑$
+∑$é& 
+é&î& 
+î&÷) ÷))
+)®* 
+®*Ç+ 0Ç+ò+*$bdcd44f8-a6f5-4ce9-978b-26232a4aae4e0
+ò+π- 
+π-¡- ¡-Ë4
+Ë4Í4 
+Í4Å9 Å9á9
+á9·; "(4ccbfb0aeb38b53a4b768c01bd195d29c0b00884*c:/New folder/PPW2'file:///c:/New%20folder/PPW/slebew.html:file:///c:/New%20folder/PPW
